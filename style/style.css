@@ -43,6 +43,38 @@ height:3400px;
 box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.5);
 height:740px;
 }
+.row3{
+box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.5);
+height:1050px;
+margin-bottom: 10px; 
+}
+img.prof{
+width: 300px;
+height: 330px;
+float: left;
+margin-right: 10px;
+}
+.profoto{
+width: 700px;
+height: 350px;
+}
+.profoto2{
+width: 700px;
+height: 30px;
+font-size:14px;
+}
+.profoto3{
+width: 700px;
+height: 500px;
+box-shadow: inset -1px -1px 10px 5px rgba(1,1,1,0.5);
+background-color: rgba(240,240,240,0.9);
+}
+.profoto4{
+width: 750px;
+height: 600px;
+box-shadow: inset -1px -1px 10px 5px rgba(1,1,1,0.5);
+background-color: rgba(240,240,240,0.9);
+}
 
 .col-md-4{
 background-color: rgba(65,65,65,0.9);
@@ -83,6 +115,7 @@ background-color: rgba(203,203,203,0.9);
 .TAB{
 border-top:solid 1px #000000; 
 border-left:solid 1px #000000;
+margin-bottom: 10px;
 }
 .TD1{
 background: #4d5159; 
@@ -149,3 +182,114 @@ ul#menu li ul li a:hover {
 TD{
 padding: 10px;
 }
+
+#contact_form {
+    font-family: Verdana, Arial, "Times New Roman";
+    font-size: 12px;
+    color: #666;
+}
+/** FORM STYLES GENERAL **/
+#contact_form input, select, textarea {
+    font-size: 11px;
+    color:#999999;
+    width: 300px;
+    height: 28px;
+    border: #CCC solid 1px;
+/** BORDER RADIUS HACKS **/
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#contact_form input:hover, select:hover, textarea:hover {
+    border: 1px solid #999;
+}
+
+#contact_form input:focus, select:focus, textarea:focus {
+    border: 1px solid #999;
+}
+
+/** FORM STYLE: textarea **/
+#contact_form textarea {
+    height: 80px;
+    padding: 4px 2px 2px 4px;
+    font-family: Verdana, Arial, "Times New Roman";
+}
+/** FORM STYLE: input **/
+#contact_form input {
+    padding: 0 5px 0px 30px;
+    background-position: 7px 5px;
+    background-repeat: no-repeat;
+}
+
+input#send {
+    padding:0;
+    cursor:pointer;
+    width:135px;
+    height: 23px;
+    background: url(../img/contact/send_button.png);
+}
+
+input#send:hover {
+    border: 1px solid #999;
+    color: #666;
+}
+
+#contact_form label {
+    display:inline-block;
+    width: 100px;
+    vertical-align:top;
+    margin-top: 6px;
+}
+/** CONTAINER OF INPUTS **/
+#contact_form span {
+    border:0;
+    padding:0;
+    margin:0;
+    display: block;
+    margin-bottom: 10px;
+}
+#ajax_loader {
+    display:none;
+}
+
+#contact_form .noicon {
+    padding: 0px 7px 0 7px;
+    text-align:center;
+}
+
+div#contact {
+    width: 444px;
+    margin: 0 auto;
+	box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.5);
+	margin-top: 30px;
+}
+
+div#top {
+    background: url(../img/lay/top.jpg);
+	opacity: 0.9;
+    height: 64px;
+}
+
+div#top h1 {
+    font-family: Verdana, Arial;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 20px 0 0 20px;
+    color: #fff;
+}
+
+div#center {
+    background: url(../img/lay/center.jpg);
+	opacity: 0.9; 
+    padding: 5px 15px 5px 25px;
+}
+
+div#bot {
+    background: url(../img/lay/bot.jpg);
+	opacity: 0.9;
+    height: 13px;
+}
+
+
